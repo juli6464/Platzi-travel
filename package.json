@@ -6,8 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "tw:build": "tailwind -i ./src/css/tailwind.css -o ./public/css/tailwind.css --watch",
-    "testear": "npx tailwindcss -i ./src/css/tailwind.css -o ./public/css/tailwind.css --watch",
-    "minify": "tailwindcss -i src/css/tailwind.css -o style.css --minify"
+     "minify": "npx tailwindcss -i ./src/css/tailwind.css -o ./public/css/tailwind.css --minify"
   },
   "author": "",
   "license": "ISC",
