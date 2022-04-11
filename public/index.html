@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../public/css/tailwind.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&display=swap" rel="stylesheet">
+    <title>Gogo Travel</title>
+</head>
+<body class="font-Montserrat">
+    <nav></nav>
+    <section section class="w-full h-auto">
+        <div id="home">
+            <div class="w-full h-3/4">
+                <div class="w-full h-full flex flex-col absolute space-y-96 py-4 items-center">
+                    <input class="outline-none p-3 rounded-full shadow-sm text-center duration-300 focus-within:shadow-sm focus:ring-2 focus:w-11/12 " placeholder="San Francisco" type="search" name="" id="">
+                    <button class="w-48 rounded-full text-lg text-primary shadow-sm font-semibold p-4 bg-white transition-all duration-500 ease-in-out hover:bg-primary hover:text-white  hover:-translate-y-1 hover:scale-110">
+                        Explorar
+                    </button>
+                </div>
+                <div class="w-full h-full">
+                    <img src="./img/sanFrancisco.jpg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="p-6" id="recomendados">
+            <p class="text-3xl font-semibold text-primary">Recomendados</p>
+            <div class="w-auto h-72 items-center mt-6 overflow-x-auto overscroll-x-contain flex space-x-6 overflow-y-hidden">
+                <div class="Card">
+                    <div class="w-full h-3/5 bg-norway bg-cover rounded-t-lg"></div>
+                    <div class="w-full h-2/5 bg-secondary rounded-b-lg">
+                        <p class="text-white font-bold text-xl px-4 py-2">Noruega</p>
+                        <p class="text-white text-sm px-4">Paisajes increibles</p>
+                    </div>
+                </div>
+                <div class="Card">
+                    <div class="w-full h-3/5 bg-new_york bg-cover rounded-t-lg"></div>
+                    <div class="w-full h-2/5 bg-white rounded-b-lg">
+                        <p class="text-terciary font-bold text-xl px-4 py-2">Nueva York</p>
+                        <p class="text-terciary text-sm px-4">La gran manzana</p>
+                    </div>
+                </div>
+                <div class="Card">
+                    <div class="w-full h-3/5 bg-yosemite bg-cover rounded-t-lg"></div>
+                    <div class="w-full h-2/5 bg-secondary rounded-b-lg">
+                        <p class="text-white font-bold text-xl px-4 py-2">Yosemite</p>
+                        <p class="text-white text-sm px-4">Un respiro del mundo</p>
+                    </div>
+                </div>
+                <div class="Card">
+                    <div class="w-full h-3/5 bg-switzerland bg-cover rounded-t-lg"></div>
+                    <div class="w-full h-2/5 bg-white rounded-b-lg">
+                        <p class="text-terciary font-bold text-xl px-4 py-2">Suiza</p>
+                        <p class="text-terciary text-sm px-4">El mejor chocolate que probarás</p>
+                    </div>
+                </div>
+                <div class="Card">
+                    <div class="w-full h-3/5 bg-sydney bg-cover rounded-t-lg"></div>
+                    <div class="w-full h-2/5 bg-secondary rounded-b-lg">
+                        <p class="text-white font-bold text-xl px-4 py-2">Sydney</p>
+                        <p class="text-white text-sm px-4">Una gran ciudad para disfrutar al máximo</p>
+                    </div>
+                </div>
+                <div class="Card">
+                    <div class="w-full h-3/5 bg-seattle bg-cover rounded-t-lg"></div>
+                    <div class="w-full h-2/5 bg-white rounded-b-lg">
+                        <p class="text-terciary font-bold text-xl px-4 py-2">Seattle</p>
+                        <p class="text-terciary text-sm px-4">Una gran ciudad para disfrutar al máximo</p>
+                    </div>
+                </div>
+                <div class="Card">
+                    <div class="w-full h-3/5 bg-europe bg-cover rounded-t-lg"></div>
+                    <div class="w-full h-2/5 bg-secondary rounded-b-lg">
+                        <p class="text-white font-bold text-xl px-4 py-2">Edimburgo</p>
+                        <p class="text-white text-sm px-4">Conoce los castillos medievales</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="px-6 h-full w-full" id="rentas_destacadas">
+            <p class="text-3xl text-primary font-semibold pb-6 mt-2">Rentas Destacadas</p>
+            <div class="w-full h-full flex flex-col space-y-4 items-center justify-center">
+                <div class="w-full h-96 bg-chicago bg-cover rounded-xl">
+                    <p class="CardTitle">Chicago</p>
+                    <p class="text-sm pl-8 text-black mr-24">2 habitaciones, baño y cocina</p>
+                </div>
+                <div class="w-full h-96 bg-miami bg-cover rounded-xl ">
+                    <p class="CardTitle">Miami</p>
+                    <p class="text-sm pl-8 text-black mr-24">2 habitaciones, baño y cocina</p>
+                </div>
+            </div>
+        </div>
+        <!--faqs-->
+        <div class="w-full h-full py-10 px-6" id="faqs">
+            <div class="w-full h-full flex flex-col space-y-4">
+                <p class="text-3xl text-primary font-semibold mt-6">FAQS</p>
+                <div>
+                    <p class="text-xl font-medium text-primary">Política de cancelación</p>
+                    <p class="font-normal pt-2">Para estancias menores a una semana es importante avisar con 3 días de
+                        anticipación, de caso contario será sancionado.</p>
+                </div>
+                <div>
+                    <p class="text-xl font-medium text-primary">Métodos de pago</p>
+                    <p class="font-normal pt-2">Aceptamos distintos métodos de pago: VISA, MasterCard, American Express,
+                        Paypal y Binance.</p>
+                </div>
+                <div>
+                    <p class="text-xl font-medium text-primary">Mascotas</p>
+                    <p class="font-normal pt-2">El tema de las mascotas dependerá directamente del anfitrión.</p>
+                </div>    
+            </div>
+        </div>
+    </section>
+    <!--- Footer -->
+    <footer class="w-full h-auto bg-gray-50 p-6 space-y-2"> 
+        <p class="text-lg">Acerca De</p>
+        <p class="text-sm text-gray-300">Acerca de</p>
+        <p class="text-sm text-gray-300">Inversionistas</p>
+        <p class="text-sm text-gray-300">Empleos</p>
+        <p class="text-sm text-gray-300">Términos y condiciones</p>
+        <p class="text-lg">Platzi Travel, Inc.</p>
+    </footer>
+    <!--tab bar-->
+    <div class="w-full h-16 bg-gray-100 fixed left-0 bottom-0 shadow-md flex space-x-8 items-center justify-center lg:hidden" id="tab_bar">
+        <a href="#home">
+            <img class="fill-current text-gray-200" width="30" height="30" src="./svg/home.svg" alt="">
+        </a>
+        <a href="#rentas_destacadas">
+            <img class="fill-current text-primary" width="30" height="30" src="./svg/search.svg" alt="">
+        </a>
+        <a href="#recomendados">
+            <img class="fill-current text-gray-200" width="30" height="30" src="./svg/heart.svg" alt="">
+        </a>
+        <button>
+            <img class="fill-current text-gray-200" width="30" height="30" src="./svg/moon.svg" alt="">
+        </button>
+        <a href="">
+            <img class="fill-current text-gray-200" width="30" height="30" src="./svg/user.svg" alt="">
+        </a>
+    </div>
+</body>
+</html>
